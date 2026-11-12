@@ -1,0 +1,30 @@
+VTBot - bot para Tibia 15.03 (ModukOT)
+======================================
+
+USO
+1. Abre Tibia (client.exe) y entra con tu personaje.
+2. Doble clic en "Iniciar VTBot.bat".
+   - Aparece la ventana del bot y un boton "VT" dentro del cliente (debajo del boton PvP).
+   - El boton VT oculta/muestra la ventana. Se puede arrastrar para moverlo.
+3. Activa "BOT ACTIVO" (abajo a la izquierda en la ventana) y configura cada pestana.
+
+PARA QUITARLO
+- Ajustes > "Descargar VTBot", o doble clic en "Descargar VTBot.bat".
+- Tambien se va solo al cerrar el cliente.
+
+IMPORTANTE
+- Solo funciona con el client.exe de ModukOT para el que fue hecho. Con otra version el bot
+  muestra un aviso y NO se carga (para no cerrar el juego).
+- Si Windows/antivirus lo marca: es un falso positivo tipico de cualquier programa que se
+  inyecta en otro. Agrega la carpeta a las exclusiones de Windows Defender.
+- Si el cliente corre como administrador, ejecuta "Iniciar VTBot.bat" tambien como administrador
+  (clic derecho > Ejecutar como administrador).
+- No muevas los archivos de esta carpeta por separado: vtloader.exe, vtcore.dll y offsets.ini
+  deben estar juntos. La carpeta debe poder escribirse (el bot guarda aqui su configuracion y
+  su log: vtbot_config.ini y vtbot_*.log).
+- Uso bajo tu propia responsabilidad.
+
+ARCHIVOS
+- vtloader.exe  inyector
+- vtcore.dll    el bot
+- offsets.ini   direcciones internas del cliente + huella del client.exe

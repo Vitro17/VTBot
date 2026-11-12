@@ -1,0 +1,15 @@
+# compilacion
+build/
+release/VTBot.zip
+
+# generado al ejecutar el bot (no se versiona)
+*.log
+vtbot_config.ini
+vtbot_*.dll
+
+# herramientas de ingenieria inversa: solo los scripts, no las capturas/volcados
+tools/__pycache__/
+tools/*.json
+tools/*.txt
+tools/*.png
+tools/*.npy
